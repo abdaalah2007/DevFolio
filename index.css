@@ -1,0 +1,489 @@
+header {
+    background-image: url(./img/hero-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 50px;
+}
+header * {
+    z-index: 6;
+}
+header .content h1 {
+    font-size: 60px;
+}
+header::before {
+    content: "";
+    position: absolute; 
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0, 0.5);
+    z-index: 5;
+}
+header .dropdown-menu {
+    opacity: 0;
+}
+header .dropdown-menu:hover {
+    opacity: 1;
+}
+nav{
+    background-color: #000000a5;
+}
+header nav .container .collapse ul li:hover{
+    border-bottom: 2px solid white;
+}
+header nav .container .collapse ul li .active{
+    border-bottom: 2px solid white;
+}
+.key::after{
+    content: "";
+    animation: typing 10s alternate infinite;
+    border-right: 2px solid;
+    border-color: #fff ;
+ 
+}
+@keyframes typing {
+    0%{content: ""}
+    2%{content: "D"; }
+    3%{content: "De"; }
+    4%{content: "Des"; }
+    5%{content: "Desi"; }
+    6%{content: "Desig"; }
+    7%{content: "Design";  }
+    8%{content: "Designe"; }
+    9%{content: "Designer"; border-color: white;}
+    10%{content: "Designer"; border-color:transparent ;}
+    11%{content: "Designer"; border-color: transparent;}
+    12%{content: "Designer"; border-color: white;}
+    13%{content: "Designer"; border-color: white;}
+    14%{content: "Designer"; border-color: transparent;}
+    15%{content: "Designer"; border-color: transparent;}
+    16%{content: "Designer"; border-color: white;}
+    17%{content: "Designer";}
+    18%{content: "Designe";}
+    19%{content: "Design";}
+    20%{content: "Desig";}
+    21%{content: "Desi";}
+    22%{content: "Des";}
+    23%{content: "De";}
+    24%{content: "Dev";}
+    25%{content: "Deve";}
+    26%{content: "Devel";}
+    26%{content: "Develo"; }
+    27%{content: "Develop"; }
+    28%{content: "Develope"; }
+    29%{content: "Developer"; border-color: white;}
+    30%{content: "Developer"; border-color: white;}
+    31%{content: "Developer"; border-color: transparent;}
+    32%{content: "Developer"; border-color: transparent;}
+    33%{content: "Developer"; border-color: white;}
+    34%{content: "Developer"; border-color: white;}
+    35%{content: "Developer"; border-color: transparent;}
+    36%{content: "Develope"; }
+    37%{content: "Develop"; }
+    38%{content: "Develo";}
+    39%{content: "Devel";}
+    40%{content: "Deve";}
+    41%{content: "Dev";}
+    42%{content: "De";}
+    43%{content: "D";}
+    44%{content: "";}
+    45%{content: "F";}
+    46%{content: "Fr";}
+    47%{content: "Fre";}
+    48%{content: "Free";}
+    49%{content: "Freel";}
+    50%{content: "Freela";}
+    51%{content: "Freelan";}
+    52%{content: "Freelanc"; }
+    53%{content: "Freelance"; }
+    54%{content: "Freelancer"; border-color: white;}
+    55%{content: "Freelancer"; border-color: white;}
+    56%{content: "Freelancer"; border-color: transparent;}
+    57%{content: "Freelancer"; border-color: transparent;}
+    58%{content: "Freelancer"; border-color: white;}
+    59%{content: "Freelancer"; border-color: white;}
+    60%{content: "Freelancer"; border-color: transparent;}
+    61%{content: "Freelancer"; border-color: transparent;}
+    62%{content: "Freelancer"; border-color: white;}
+    63%{content: "Freelance";}
+    64%{content: "Freelanc";}
+    65%{content: "Freelan";}
+    66%{content: "Freela";}
+    67%{content: "Freel";}
+    68%{content: "Free";}
+    69%{content: "Fre";}
+    70%{content: "Fr";}
+    71%{content: "F";}
+    72%{content: "";}
+    73%{content: "P";}
+    74%{content: "Ph";}
+    75%{content: "Pho";}
+    76%{content: "Phot";}
+    77%{content: "Photo";}
+    78%{content: "Photog";}
+    79%{content: "Photogr";}
+    80%{content: "Photogra"; }
+    81%{content: "Photograp"; }
+    82%{content: "Photograph";}
+    83%{content: "Photographe";}
+    84%{content: "Photographer"; border-color: white;}
+    85%{content: "Photographer"; border-color: transparent;}
+    86%{content: "Photographer"; border-color: transparent;}
+    87%{content: "Photographer"; border-color: white;}
+    88%{content: "Photographer"; border-color: white;}
+    89%{content: "Photographer"; border-color: transparent;}
+    90%{content: "Photographer";}
+    91%{content: "Photographe";}
+    92%{content: "Photograph";}
+    93%{content: "Photograp";}
+    94%{content: "Photogra";}
+    95%{content: "Photogr";}
+    96%{content: "Photog";}
+    97%{content: "Photo";}
+    98%{content: "Ph";}
+    99%{content: "P";}
+    100%{content: "";}
+} 
+/* //////////////////////////// */
+
+#about .about .container .skill{
+    line-height: 30px;
+    padding: 20px 0;
+}
+#about .about .container .row .kalk{
+    padding: 20px 0;
+}
+#about .about .container .cont h1::before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 130px;
+    bottom: -10px;
+}
+#about .about .container .cont h1 {
+    margin-bottom: 20px;
+}
+
+#about .about .container .cont p {
+    font-size: 20px;
+    color: #4E4E4E;
+    font-weight: 300;
+    line-height: 30px; 
+}
+/* ///////////////// */
+.Services h2{
+    font-size: 40px;
+}
+
+.Services .k{
+    position: absolute;
+    background-color:#0078ff ;
+    width: 40px;
+    height: 5px;
+    display: flex;
+    left: 48%;
+    margin-bottom: 20px;
+}
+ .icon{
+  text-align: center;
+    width: 60px;
+    height: 60px;
+    line-height: 1.5;
+    box-shadow: 0 0 0 10px #0078ff;
+    border-radius: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s all;
+}
+.icon:hover {
+    box-shadow: 0 0 0 10px #0077ff41;
+    background-color: #0078ff;
+    color: #fff;
+}
+/* ///////////// */
+.img-scrol{
+    position: relative;
+    margin-top: 20px;
+    background-image: url(./img/post-3.jpg);
+    height: auto;
+    width: 100%;
+    padding: 8rem 0;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.img-scrol .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    /* height: 100%;
+    width: 100%; */
+    opacity: 0.7;
+    background-color: #0078ff;
+}
+.img-scrol  .container .row .abdoo i{
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    right:5px;
+    left: 0;
+    text-align: center;
+
+}
+.img-scrol  .container .row .abdoo p{
+    margin-top: 15px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.img-scrol  .container .row .abdoo {
+    position: relative;
+
+  
+}
+.img-scrol  .container .row .abdoo .icon{
+    height: 60px;
+    width: 60px;
+    line-height: 1.5;
+    box-shadow: 0 0 0 10px #cde1f8;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 40px;
+}
+/* /////// */
+.card {
+    gap: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.card img {
+transform: scale(1.04);
+transition: all 1s;
+}
+.card-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.card-text {
+    color: #6c757d;
+}
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #007bff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #007bff;
+    font-size: 1.5rem;
+}
+.card:hover img{
+    transform: scale(1.1);
+}
+.work .k{
+position: absolute;
+background-color:#0078ff ;
+width: 40px;
+height: 5px;
+display: flex;
+left: 48%;
+margin-bottom: 20px;
+}
+/* /////////// */
+.tre{
+    position: relative;
+    margin-top: 20px;
+    background-image: url(./img/overlay-bg.jpg);
+    height: 80vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+ }
+ .tre .bg{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.7;
+    background-color: #0078ff;
+ }
+ .tre .imgg{
+  position: relative;
+  height: 15px;
+  width:15px;
+  border-radius: 50%;
+  top: 150px ;
+ }
+ .tre .carousel-inner .carousel-item{
+    margin-top: 150px;
+ }
+ 
+ .tre .carousel-inner .carousel-item h1{
+    padding: 10px;
+ }
+ /* //////////////// */
+ .blog .f .k{
+    background-color: #0078ff;
+    width: 40px;
+    height: 5px;
+    display: flex;
+    left: 48%;
+    z-index: 10;
+ }
+.text-slider-items {
+    display: none;
+}
+
+.heading {
+    margin-top: 200px;
+    text-align: center;
+}
+
+.heading h1 {
+    color: limegreen;
+    font-size: 70px;
+}
+
+.heading h3 {
+    color: black;
+    font-size: 20px;
+}
+.Contact{
+    position: relative;
+    background-image: url(./img/overlay-bg.jpg);
+    height: auto;
+    width: 100%;
+    padding: 8rem 0;
+    margin-top: 70px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    box-shadow: 1px 0px 0px 1px ; 
+}
+.Contact .bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    padding: 0;
+  
+    opacity: 0.7;
+    background-color: #0078ff;
+}
+.Contact .container .input h1{
+    font-weight: 500;
+    font-size: 30;
+}
+.Contact .container .input .kat{
+    margin-top: 0 ;
+    border:2px solid #0062D3;
+    
+}
+.Contact .container .row{
+    position:absolute;
+    background-color: #fff;
+    position: relative;
+    z-index: 10;
+}
+.Contact .container .input{
+    padding: 50px;
+}
+.Contact .container .input input,
+.Contact .container .input  textarea {
+    padding: 10px 15px;
+    margin-bottom: 1rem;
+    border: 1px solid #dee2e6; 
+}
+.Contact .container .input-style input:focus,
+.Contact .container .input-style textarea:focus {
+    outline: none;
+    box-shadow: 2px 1px 7px 2px #007bff;
+
+}
+.Contact .container .input button{
+    margin-top: 20px;
+    background: #0078ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+}
+.Contact .container .input button:hover{
+    background-color:#3393ff;
+    box-shadow: 3px 0.5px 8px 0px #007bff;
+}
+.Contact .container .input .L{
+    font-size:20px ;
+    line-height: 30px;
+    font-weight:300 ;
+    color: #4e4e4ec1;
+}
+.Contact .container .input .osume i{
+    color: #3393ff;
+    font-size: 16px;
+    padding:  10px 0;
+}
+.Contact .container .input .osume i p{
+    color: #4E4E4E;
+    font-weight:400 ;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+ .Contact .container .input .iconn{
+    font-size: 20px;    
+} 
+.Contact .container .input .iconn .ico{ 
+text-align: center;
+width: 10px;
+height: 10px;
+line-height: 1.5;
+box-shadow: 0 0 0 10px #0078ff;
+border-radius: 50%;
+margin:0 20px;
+text-align: center;
+padding: 20px;
+display: inline-flex;
+align-items: center;
+justify-content: center;
+transition: 0.5s all;
+ }
+ .Contact .container .input .iconn .ico i{
+    position: relative;
+    left: -24px;
+
+ }
+ .Contact .container .input .iconn .ico:hover {
+    box-shadow: 0 0 0 10px #0077ff41;
+    background-color: #0078ff;
+    color: #fff;
+}
+ .Contact .container .input .iconn .hhh{
+margin-right: -50px;
+ }
+.footer{
+    background-color: #0062D3;
+}
